@@ -1,0 +1,476 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+a{
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+}
+
+.container{
+    width: 1200px;
+    margin:auto;
+}
+img{
+    width: 220px;
+}
+/*********************Header starts here*******************/
+.logo{
+    float:left;
+    margin-left: 100px;
+}
+
+.number{
+    float:left;
+    margin: 79px 0;
+    font-weight: bold;
+    margin-left: 300px;
+    font-size: 20px;
+    color: black;
+}
+.number a{
+    color:black;
+}
+.number a:hover{
+    color: red;
+}
+.menu{
+    float:right;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 65px 0;
+    font-weight: bold;
+    padding: 0 20px;
+    font-size: 20px;
+    color: black;
+}
+.menu ul li a{
+    color:black;
+   
+}
+
+.menu ul li a:hover{
+ color: red;
+}
+/******************** Nav bar starts here********************/
+.nav{
+   padding: 5px;
+    background-color: black;
+    font-size: 15px;
+   
+}
+.nav ul li{
+    display:inline;
+    list-style-type: none;
+    padding: 15px;
+    margin-left: 41px;
+    position: relative;
+    
+}
+.nav ul li a{
+    color:white;
+   
+}
+.nav ul li a:hover{
+    background-color: red;
+    padding: 20px 10px;
+    
+}
+.ctgo{
+    display: inline;
+    color: white;
+    background-color: red;
+    padding: 20px 0;
+    padding-right: 21px;
+    padding-left: -9px;
+    margin-left: 60px;
+    
+}
+.ctgo ul li a{
+    display: block;
+    color: black;
+    padding: 5px 51px;
+   
+}
+.ctgo ul li a:hover{
+    color: red;
+    background-color: white;
+}
+
+
+.dropdown{
+    position: absolute;
+    top: 242px;
+    left: 175px;
+    background-color: white;
+    float: left;
+    padding: 10px;
+}
+
+/*******************banner starts here********************/
+.banner img{
+    width: 720px;
+    height: 452px;
+}
+.banner{
+    margin: 25px 0px 20px 370px;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 410px;
+    left: 596px;
+}
+.content a{
+    background-color: red;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid red;
+    color: black;
+    line-height: 270%;
+
+}
+.content a:hover{
+    background-color: pink;
+}
+
+/***************4 section box starts here******************/
+.title{
+    float: left;
+    margin-left: 2px;
+    
+}
+.list{
+    float: right;
+    margin-right: -3px;
+}
+.list ul li{
+    list-style-type: none;
+    display: inline;
+   
+}
+.list ul li a{
+    color:grey;
+    padding: 0 10px;
+}
+.list ul li a:hover{
+    color: red;
+}
+.border{
+    border-bottom: 1px solid gray;
+    margin-left: 98px;
+    margin-right: 110px;
+}
+.servicebox img{
+    height: 300px;
+    
+}
+.servicebox{
+    float:left;
+    width: 22.10%;
+    max-height: 700px;
+    
+}
+
+.servicebox a{
+    color: rgb(61, 55, 55);
+    font-weight: bold;
+}
+.servicebox a:hover{
+    color: rgb(49, 49, 230);
+}
+.servicebox p{
+    color:red;
+}
+.services{
+    margin-top: 20px;
+    padding: 0px 0px 0px 149px;
+    
+}
+
+/***********************Two images starts here***************************/
+.photo{
+    width:36%;
+    float: left;
+    height:250px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 80px;
+    
+}
+.photo img{
+    height: 280px;
+    width: 110%;
+}
+.info{
+    position:absolute;
+    left:369px;
+    top:1484px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 8px;
+    
+    
+}
+.info a{
+    color: black;
+    border-bottom: 4px solid lightpink;
+    
+    
+}
+.info a:hover{
+    color: black;
+    background-color: lightpink;
+}
+.pic{
+    width:36%;
+    float: left;
+    height:250px;
+    position: relative;
+    margin-left: 133px;
+    margin-top: 80px;
+    
+}
+.pic img{
+    height: 280px;
+    width: 110%;
+}
+.infos{
+    position:absolute;
+    left:946px;
+    top:1484px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 8px;
+    
+    
+}
+.infos a{
+    color: black;
+    border-bottom: 4px solid lightskyblue;
+    
+}
+.infos a:hover{
+    color: black;
+    background-color: lightskyblue;
+}
+
+/***************4 section box starts here******************/
+.title{
+    float: left;
+    margin-left: 2px;
+    margin-top: 80px;
+    font-size: 22px;
+    
+}
+
+.border{
+    border-bottom: 1px solid gray;
+    margin-left: 98px;
+    margin-right: 110px;
+}
+.servicebox img{
+    height: 300px;
+    
+}
+.servicebox{
+    float:left;
+    width: 22.10%;
+    max-height: 700px;
+    
+}
+
+.servicebox a{
+    color: rgb(61, 55, 55);
+    font-weight: bold;
+}
+.servicebox a:hover{
+    color: rgb(49, 49, 230);
+}
+.servicebox p{
+    color:red;
+}
+.services{
+    margin-top: 20px;
+    padding: 0px 0px 0px 149px;
+    
+}
+/******************* 3 banners starts here*********************/
+.banners img{
+    width:100%;
+    height: 250px;
+    padding-left: 30px;
+    
+}
+.banner1{
+    float:left;
+    width:33%;
+    margin-top: 80px;
+    
+}
+
+/********************Featured products starts here****************/
+.titles{
+    float: left;
+    margin-left: 2px;
+    margin-top: 80px;
+    font-size: 22px;
+    
+}
+
+.borders{
+    border-bottom: 1px solid gray;
+    margin-left: 98px;
+    margin-right: 110px;
+}
+.serviceboxes img{
+    width: 100px;
+    padding-left: 30px;
+   
+    
+}
+.serviceboxes{
+    display: inline-flex;
+    width: 30%;
+    box-shadow: 1px 1px 2px gray;
+    margin: auto;
+    height: 120px;
+}
+
+.serviceboxes a{
+    color: rgb(61, 55, 55);
+    font-weight: bold;
+}
+.serviceboxes a:hover{
+    color: rgb(49, 49, 230);
+}
+.serviceboxes p{
+    color:red;
+    
+}
+.service{
+    margin-top: 20px;
+    padding: 0px 0px 0px 149px;
+    
+}
+.span{
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+
+/**********************Brands section start here*****************************/
+
+.tile{
+    float: left;
+    margin-left: 2px;
+    margin-top: 80px;
+    font-size: 22px;
+    
+}
+
+.bord{
+    border-bottom: 1px solid gray;
+    margin-left: 98px;
+    margin-right: 110px;
+}
+.boxes img{
+    width: 75%;
+    
+}
+.boxes{
+    float: left;
+    width:20%;
+    
+}
+
+/*************************Newsletter starts here*******************************/
+footer{
+    background-color: black;
+    margin-top: 50px;
+    height: 100px;
+}
+.news{
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+   
+}
+.input{
+    float: right;
+    margin-top: 10px;
+}
+
+.input ul li{
+    display: inline;
+    text-decoration: none;
+   
+    
+}
+input[type=text]{
+    width: 73%;
+    padding: 10px;
+   font-size: 20px;
+    
+    font-weight: bold;
+}
+
+.input a{
+    
+    color: white;
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.input a:hover{
+    background-color: tomato;
+}
+/******************Footer*******************/
+.end{
+    background-color: lightgrey;
+    
+    padding: 10px;
+    margin-top: 80px;
+    line-height: 30px;
+    
+}
+.first{
+    width: 25%;
+    float: left;
+}
+.first img{
+    width: 80px;
+    height: 80px;
+}
+.first h3{
+    font-weight: bold;
+    font-size: 32px;
+}
+.first a{
+    color: black
+}
+.first a:hover{
+    color: red;
+}
+.last{
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    padding: 3px;
+}
+
+
+
+
+
+
